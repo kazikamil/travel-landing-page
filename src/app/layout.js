@@ -1,5 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono ,Poppins,Volkhov} from "next/font/google";
+
 import "./globals.css";
+
+const volkhov = Volkhov({
+  weight: ["400","700"], // Ajoute un poids spécifique ici
+  variable: "--font-volkhov",
+  subsets: ["latin"],
+});
+
+const poppins = Poppins({
+  weight: ["400","600"], // Ajoute un poids spécifique ici
+  variable: "--font-poppins",
+  subsets: ["latin"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,6 +32,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
