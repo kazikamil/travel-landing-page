@@ -38,13 +38,13 @@ export default function Footer(){
             <div className="relative h-48 w-1/5  py-2 items-center flex flex-col space-y-2">
                  <div className="flex justify-between px-2">
                     <div className="w-1/3">
-                       <img src="social2.png"></img>
+                       <img src="Social2.png"></img>
                     </div>
                     <div className="w-1/3">
-                       <img src="social1.png"></img>
+                       <img src="Social1.png"></img>
                     </div>
                     <div className="w-1/3">
-                       <img src="social.png"></img>
+                       <img src="Social.png"></img>
                     </div>
                  </div>
                  <div className="text-blue-950 font-poppins text-lg">Discover our app</div>
